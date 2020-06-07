@@ -866,7 +866,7 @@ INSTALL_K3S_SKIP_DOWNLOAD=true INSTALL_K3S_EXEC='server --datastore-endpoint="my
 - 在每个worker节点上安装k3s
 
 ```sh
-INSTALL_K3S_SKIP_DOWNLOAD=true K3S_URL=https://myserver:6443 K3S_TOKEN=mynodetoken ./install.sh
+INSTALL_K3S_SKIP_DOWNLOAD=true INSTALL_K3S_EXEC='agent --datastore-endpoint="mysql://root:root@tcp(10.1.103.171:3306)/k3s" --docker --pause-image="microid.docker.com:5000/rancher/pause:3.1"' K3S_URL=https://myserver:6443 K3S_TOKEN=mynodetoken ./install.sh
 ```
 
 > **注意** 请确保用服务器的`IP或有效DNS`替换`myserver`,并用服务器的节点令牌替换`mynodetoken`。节点令牌位于服务器的`/var/lib/rancher/k3s/server/node-token`。
