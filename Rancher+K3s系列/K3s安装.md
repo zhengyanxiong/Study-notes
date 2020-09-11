@@ -873,7 +873,7 @@ INSTALL_K3S_SKIP_DOWNLOAD=true INSTALL_K3S_EXEC='agent --datastore-endpoint="mys
 
 > **注意：** 如果k3s使用外部mysql连接，可能由于k3s这里拼接mysql地址会出现反斜杠`\` ，导致链接失败现象，所以需要手动修改 `/etc/systemd/system/k3s.service` 文件，将 `\` 删掉，如下图所示。
 
-![image-20200526174934213](D:\software\MicroID\学习笔记\image-20200526174934213.png)
+![image-20200526174934213](./img/image-20200526174934213.png)
 
 ### 4、安装Rancher
 
