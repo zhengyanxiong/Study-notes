@@ -24,4 +24,3 @@
 
 #### [5.1 Vue+stompjs实现RabbitMQ消息推送 ](./消息系列/Vue+stompjs实现RabbitMQ消息推送.md)
 
-gagasgag
