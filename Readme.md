@@ -20,6 +20,8 @@
 
 #### [4.1 K3s安装](./Rancher+K3s系列/K3s安装.md)
 
+#### [4.1 Kubernetes备忘录](./Rancher+K3s系列/Kubernetes备忘录.md)
+
 ### [5、消息系列]()
 
 #### [5.1 Vue+stompjs实现RabbitMQ消息推送 ](./消息系列/Vue+stompjs实现RabbitMQ消息推送.md)
