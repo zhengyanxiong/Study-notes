@@ -8,3 +8,9 @@
 
 解压到`/user/local/bin`目录下即可
 
+***注意***：在K3s集群环境中，会出现 `Error: Kubernetes cluster unreachable: error loading config file "/root/.kube/config": read /root/.kube/config: is a directory`错误，执行下面命令解决
+
+```sh
+export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+```
+

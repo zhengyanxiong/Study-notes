@@ -875,5 +875,5 @@ INSTALL_K3S_SKIP_DOWNLOAD=true INSTALL_K3S_EXEC='agent --datastore-endpoint="mys
 
 ![image-20200526174934213](./img/image-20200526174934213.png)
 
-### 4、安装Rancher
+
 
