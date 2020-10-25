@@ -1,0 +1,15 @@
+{
+  "name": "Study-notes",
+  "version": "1.0.0",
+  "description": "study nodes",
+  "main": "index.js",
+  "author": "zhengyanxiong",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs"
+    }
+}
