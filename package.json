@@ -13,5 +13,7 @@
   "dependencies": {
     "vue-class-component": "^7.2.3"
   },
-  "description": "study-notes"
+  "description": "study-notes",
+  "main": "index.js",
+  "license": "MIT"
 }

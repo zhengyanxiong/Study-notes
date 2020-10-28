@@ -42,11 +42,7 @@ module.exports = {
         'volatile'
       ],
       '/docs/rancher-series/': [
-        '',
-        encodeURI('安装环境准备'),
-        '生成自签名SSL证书',
-        'K3s安装',
-        'Rancher安装'
+        ''
       ]
     },  
     // type: 'blog',
