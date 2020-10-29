@@ -1,15 +1,19 @@
 {
-  "name": "Study-notes",
+  "name": "study-notes",
   "version": "1.0.0",
-  "description": "study nodes",
-  "main": "index.js",
-  "author": "zhengyanxiong",
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.7.1"
-  },
+  "author": "reco_luan",
   "scripts": {
-      "docs:dev": "vuepress dev docs",
-      "docs:build": "vuepress build docs"
-    }
+    "dev": "vuepress dev .  --temp .temp --open --host \"localhost\"",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "1.5.4",
+    "vuepress-theme-reco": "1.5.7"
+  },
+  "dependencies": {
+    "vue-class-component": "^7.2.3"
+  },
+  "description": "study-notes",
+  "main": "index.js",
+  "license": "MIT"
 }
