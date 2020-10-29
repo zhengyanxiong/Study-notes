@@ -3,7 +3,7 @@ module.exports = {
   description: 'Brave as a Bear.',
   dest: 'public',
   // 如果是二级域名，需添加base参数
-  base: '/doc/',
+  // base: '/Study-notes/',
   head: [
     // 网页标签栏图标
     ['link', { rel: 'icon', href: '/favicon.ico' }],
