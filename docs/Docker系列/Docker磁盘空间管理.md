@@ -47,7 +47,7 @@ Docker磁盘空间占用磁盘空间大，通过下面方法解决优化。
 
 6. 确定配置是否生效 `docker info`
 
-   ![image-20201027111157579](img/image-20201027111157579.png)
+   ![image-20201027111157579](https://gitee.com/zhengyanxiong/picture-bed/raw/master/img/image-20201027111157579.png)
 
 ### 2、Docker占用的磁盘空间清理
 
