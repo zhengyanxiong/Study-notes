@@ -877,3 +877,30 @@ INSTALL_K3S_SKIP_DOWNLOAD=true INSTALL_K3S_EXEC='agent --datastore-endpoint="mys
 
 
 
+### 4、检测
+
+```sh
+[root@node1 ~]# kubectl get pods --all-namespaces #查看pod，状态正常即可
+NAMESPACE           NAME                                                       READY   STATUS             RESTARTS   AGE
+default             elk-f6df9c564-4whhz                                        1/1     Running            0          10d
+kube-system         metrics-server-7566d596c8-lgjmt                            1/1     Running            0          10d
+cattle-prometheus   prometheus-operator-monitoring-operator-695b9b7d89-tp4qs   1/1     Running            0          10d
+cattle-prometheus   exporter-kube-state-cluster-monitoring-f8cfddbbb-7d2sn     1/1     Running            0          10d
+kube-system         coredns-8655855d6-stfqs                                    1/1     Running            0          10d
+agilefast-clound    cms-vue-57c5b55b48-t4hkn                                   1/1     Running            0          10d
+cattle-system       rancher-ddb6db556-mbv45                                    1/1     Running            2          10d
+agilefast-clound    agilefast-sentinel-dashboard-65fdfc4d7c-nkz88              1/1     Running            0          10d
+kube-system         svclb-traefik-gn6qr                                        2/2     Running            4          163d
+cattle-system       cattle-cluster-agent-6666b6b47f-nlk9d                      1/1     Running            26         162d
+cattle-system       cattle-node-agent-p9zgg                                    1/1     Running            29         162d
+cattle-prometheus   exporter-node-cluster-monitoring-d54sr                     1/1     Running            2          162d
+cattle-prometheus   prometheus-cluster-monitoring-0                            5/5     Running            1          10d
+....
+[root@node1 ~]# kubectl get node #获取node 节点
+NAME    STATUS   ROLES    AGE    VERSION
+node1   Ready    master   163d   v1.18.2-rc2+k3s1
+node2   Ready    master   163d   v1.18.2-rc2+k3s1
+node5   Ready    master   43d    v1.18.2-rc2+k3s1
+
+```
+

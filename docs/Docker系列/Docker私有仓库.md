@@ -46,6 +46,7 @@ version: '3'
 
 services:
   registry:
+    restart: always 
     image: registry:latest
     ports:
       - "5000:5000"

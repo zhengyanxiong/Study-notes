@@ -107,5 +107,32 @@ Rancher Server 在默认情况下被设计为安全的，并且需要 SSL/TLS �
    kubectl -n cattle-system apply -R -f ./rancher
    ```
 
+5. 测试
+
+   ```sh
+   [root@node1 ~]# kubectl get pod -n cattle-system
+   NAME                                    READY   STATUS    RESTARTS   AGE
+   rancher-ddb6db556-mbv45                 1/1     Running   2          10d
+   cattle-cluster-agent-6666b6b47f-nlk9d   1/1     Running   26         163d
+   cattle-node-agent-p9zgg                 1/1     Running   29         163d
+   cattle-node-agent-b2jlg                 1/1     Running   25         15d
+   rancher-ddb6db556-rhghs                 1/1     Running   1          10d
+   rancher-ddb6db556-758k9                 1/1     Running   2          10d
+   cattle-node-agent-9jnd4                 1/1     Running   28         163d
+   ```
+
    
 
+### 4、使用Rancher
+
+安装成功后，访问web管理页地址，也就是配置的Rancher访问域名，这里是 `rancher.agilefast.com`,初始化登录会设置密码 
+
+![image-20201106112604206](img/image-20201106112604206.png)
+
+登录成功后，即可看到管理页面
+
+![image-20201106112657721](img/image-20201106112657721.png)
+
+![image-20201106112715967](img/image-20201106112715967.png)
+
+![image-20201106112749336](img/image-20201106112749336.png)
