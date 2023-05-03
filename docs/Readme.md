@@ -1,28 +1,8 @@
 ## 笔记记录
 
-### [1、Linux系列]()
-
-#### [1.1  Centos7安装JAVA环境](./Linux系列/Centos7安装JAVA环境.md)
-
-#### [1.2 Centos7离线安装NFS](./Linux系列/Centos7离线安装NFS.md)
-
-### [2、Docker系列]()
-
-#### [2.1 Docker私有仓库](./Docker系列/Docker私有仓库.md)
-
-#### [2.2 Docker Harbor搭建](./Docker系列/DockerHarbor搭建.md)
-
-### [3、Nacos微服务]()
-
-#### [3.1 Nacos集群部署](./Nacos微服务/Nacos集群部署.md)
-
-### [4、Rancher+K3S系列]()
-
-#### [4.1 K3s安装](./Rancher+K3s系列/K3s安装.md)
-
-#### [4.1 Kubernetes备忘录](./Rancher+K3s系列/Kubernetes备忘录.md)
-
-### [5、消息系列]()
-
-#### [5.1 Vue+stompjs实现RabbitMQ消息推送 ](./消息系列/Vue+stompjs实现RabbitMQ消息推送.md)
-
+### [1. JAVA系列]()
+#### [1.1. Java设计模式](./java-series/Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/)
+##### [1.1.1. 单例模式](./java-series/Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/01.%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
+##### [1.1.2. 工厂方法模式](./java-series/Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/02.%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.md)
+#### [1.2. Java并发编程](./java-series/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/)
+##### [1.2.1. 并发编程的源头](./java-series/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/0.%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E7%9A%84%E6%BA%90%E5%A4%B4.md)

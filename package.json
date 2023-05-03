@@ -7,8 +7,6 @@
     "build": "vuepress build ."
   },
   "devDependencies": {
-    "vuepress": "1.5.4",
-    "vuepress-theme-reco": "1.5.7",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "babel-eslint": "^10.1.0",
@@ -20,9 +18,13 @@
     "husky": "^4.2.5",
     "lerna": "^3.22.0",
     "lint-staged": "^10.2.7",
-    "sort-package-json": "^1.44.0"
+    "sort-package-json": "^1.44.0",
+    "vuepress": "1.9.9",
+    "vuepress-theme-reco": "1.5.7"
   },
   "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-decorate": "^1.2.2",
     "vue-class-component": "^7.2.3"
   },
   "description": "study-notes",

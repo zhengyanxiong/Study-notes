@@ -1,3 +1,5 @@
+const decorate = require('markdown-it-decorate')
+
 module.exports = {
   title: "Bernie",
   description: 'Brave as a Bear.',
@@ -39,7 +41,7 @@ module.exports = {
       ],
       '/docs/java-series/': [
         '',
-        'volatile'
+        'Java设计模式'
       ],
       '/docs/rancher-series/': [
         ''
@@ -113,6 +115,11 @@ module.exports = {
     // }
   },
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    extendMarkdown: md => {
+      md.use(decorate, {
+        text: text => `<span class="decorate">${text}</span>`
+      })
+    }
   }
 }  
