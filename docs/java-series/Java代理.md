@@ -1,6 +1,10 @@
 ---
 title: Java代理模式
 date: 2020-11-13
+tags:
+ - Java
+categories:
+ - Java系列
 ---
 
 https://www.zhihu.com/question/20794107

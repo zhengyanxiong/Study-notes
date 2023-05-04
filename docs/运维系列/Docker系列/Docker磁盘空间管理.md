@@ -1,3 +1,11 @@
+---
+title: Docker磁盘空间管理
+date: 2020-01-02
+tags:
+ - Docker
+categories:
+ - 运维系列
+---
 ## Docker磁盘空间管理
 
 > docker在服务器运行一段时间后，容器的缓存会导致系统存储空间占用严重。一般可以用 `du -hx --max-depth=1`命令确定大文件位置。

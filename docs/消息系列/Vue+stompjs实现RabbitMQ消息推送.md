@@ -1,3 +1,14 @@
+---
+title: Vue+stompjs实现RabbitMQ消息推送
+date: 2020-1-12
+tags:
+ - vue
+ - stompjs
+ - rabbitMQ
+categories:
+ - 前段系列
+ - 消息队列
+---
 ### 1、开启RabbitMQ的stomp系列插件
 
 使用管理权限打开cmd，执行下列命令

@@ -1,3 +1,11 @@
+---
+title: Centos安装Docker
+date: 2020-01-02
+tags:
+ - Docker
+categories:
+ - 运维系列
+---
 #### 安装步骤
 
 ```sh

@@ -1,6 +1,11 @@
 ---
 title: Racher整合EFK
 date: 2020-11-9
+tags:
+ - rancher
+ - ELK
+categories:
+ - 运维系列
 ---
 
 ## Rancher 整合EFK

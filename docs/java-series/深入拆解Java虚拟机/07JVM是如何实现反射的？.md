@@ -1,7 +1,12 @@
 ---
 title: JVM是如何实现反射的
+date: 2023-04-04
+tags:
+ - Java
+ - JVM
+categories:
+ - Java系列
 ---
-
 ### 反射调用的实现
 
 首先，我们来看看方法的反射调用，也就是 Method.invoke，是怎么实现的。

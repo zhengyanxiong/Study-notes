@@ -1,6 +1,10 @@
 ---
 title: Vue嵌套路由缓存失效问题
 date: 2020-1-12
+tags:
+ - vue
+categories:
+ - 前段系列
 ---
 
 > 在多级路由中，如果使用`keep-alive`缓存页面，会出现缓存失效问题。

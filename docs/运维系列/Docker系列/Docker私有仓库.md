@@ -1,3 +1,11 @@
+---
+title: Docker私有仓库搭建
+date: 2020-01-02
+tags:
+ - Docker
+categories:
+ - 运维系列
+---
 ## 私有仓库
 
 > 像Docker Hub这样的公共库对于公司使用来说可能有很多的不安全因素，所有这里记录说明 `docker-registry` 私有仓库的搭建

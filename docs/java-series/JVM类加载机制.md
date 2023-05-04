@@ -1,6 +1,11 @@
 ---
 title: JVM 类加载机制
 date: 2020-11-25
+tags:
+ - Java
+ - JVM
+categories:
+ - Java系列
 ---
 
 ### 1、概述
