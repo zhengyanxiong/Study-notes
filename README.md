@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: 学习笔记文档
-tagline: 学习笔记文档
+heroText: 代码札记
+tagline: 仅以此记录总结学习
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -19,9 +19,9 @@ actionText: Guide
 actionLink: /blogs/other/guide
 features:
 - title: Yesterday
-  details: 开发一款看着开心、写着顺手的 vuepress 博客主题
+  details: 在心里种花，人生才不会荒芜
 - title: Today
-  details: 希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上
+  details: 种一棵树，最好是十年前，其次是现在
 - title: Tomorrow
-  details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
+  details: 山高水长，怕什么来不及，慌什么到不了，天顺其然，地顺其性，人顺其变，一切都是刚刚好
 ---
